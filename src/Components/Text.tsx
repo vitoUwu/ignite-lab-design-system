@@ -13,7 +13,8 @@ export function Text({ size = "md", children, asChild }: TextProps) {
 
 	return (
 		<Component
-			className={clsx("text-gray-100", {
+			className={clsx({
+				"text-gray-100": !asChild,
 				"text-xs": size === "sm",
 				"text-sm": size === "md",
 				"text-md": size === "lg",
