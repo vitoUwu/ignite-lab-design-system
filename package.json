@@ -1,8 +1,8 @@
 {
-  "name": "ignite-lab",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "ignite-lab-design-system",
+  "version": "1.0.0",
+  "description": "Um projeto desenvolvido nos 3 dias de evento do Ignite Lab 03 desenvolvido pela Rocketseat, onde o objetivo era aprender Design System, funcionalidades do Figma e do Storybook.",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -39,5 +39,22 @@
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoUwu/ignite-lab-design-system.git"
+  },
+  "keywords": [
+    "react",
+    "rocketseat",
+    "ignite",
+    "storybook",
+    "figma"
+  ],
+  "author": "vitoUwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoUwu/ignite-lab-design-system/issues"
+  },
+  "homepage": "https://github.com/vitoUwu/ignite-lab-design-system#readme"
 }
